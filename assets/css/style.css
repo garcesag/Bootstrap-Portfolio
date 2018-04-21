@@ -1,0 +1,120 @@
+body{
+	background-image: url(../images/cork-wallet.png);
+  	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.navbar .container{
+	height: 75px;
+}
+
+.navbar-default .navbar-brand{
+	height: 75px;
+	padding-top: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	font-size: 32px;
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow: none;
+}
+
+.nav li{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  	font-size: 18px;
+  	padding-top: 12px;
+
+}
+
+.aboutSection .page-header{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+  	color: #4aaaa5;
+  	font-weight: bolder;
+	border-bottom: 3px #dddddd solid;
+}
+
+.aboutSection{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  	font-size: 18px; 
+  	line-height: 1.8;
+  	background-color: #ffffff;
+  	border: 1px #dddddd solid;
+  	background-color: #ffffff;
+  	padding: 0px 30px 50px 30px;
+  	margin-bottom: 20px;
+}
+.row img{
+	padding: 5px 10px 0px 0px;
+}
+
+.panel-title{
+	height: 70px;
+	line-height: 75px;
+  	font-family: 'Georgia', Times, Times New Roman, serif;
+ 	font-weight: bold;
+ 	color: #4aaaa5;
+ 	border-bottom: 3px #dddddd solid;
+ 	padding-bottom: 0;
+}
+
+.panel .panel-heading {
+	background-image: none;
+	background-color: #ffffff;
+	border-bottom: #ffffff solid;
+}
+
+.panel .panel-default{
+  	border: 1px #dddddd solid;	
+}
+
+.contactrow img{
+	padding: 0px;
+	border-color: none;
+}
+.contactrow a{
+	padding: 0px;
+	border-color: none;
+}
+
+.page-footer {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #666666;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	border-top: 8px #4aaaa5 solid;
+}
+.panel-body .row a{
+	padding: 0;
+	border: 0px;
+}
+.thumbnail {
+	border:0 none;
+	box-shadow: none;
+}
+.caption{
+	text-align: center;
+}
+
+@media screen and (max-width: 640px){
+	.row .col-lg-12 img{
+		width: 100%;
+		padding: 0px;
+	}
+	.panel-body .row a{
+		width: 100%;
+	}
+	.navbar .navbar-header{
+	background-color: #4aaaa5;
+	}
+	.navbar-default .navbar-toggle{
+		background-color: #ddd;
+	}
+	.porthumbnail .thumbnail{
+		width: 100%;
+	}
+}
